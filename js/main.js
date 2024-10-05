@@ -1,23 +1,23 @@
 // // Masala 1 
-let randomNum = Math.floor(Math.random() * 100) + 1;
-console.log("Tasodifiy son:", randomNum);
+let random = Math.floor(Math.random() * 100) + 1;
+console.log("Tasodifiy son:", random);
 
 // // Masala 2. 
-// let num = prompt("Son kiriting:");
-// num = Number(num);
-// if (num < 0) {
-//   console.log("Musbat son kiriting");
-// } else {
-//   console.log("Kvadrat ildiz:", Math.sqrt(num));
-// }
+let num = prompt("Son kiriting:");
+num = Number(num);
+if (num < 0) {
+  console.log("Musbat son kiriting");
+} else {
+  console.log("Kvadrat ildiz:", Math.sqrt(num));
+}
 
-// // Masala 3. 
-// let numbers = [];
-// for (let i = 0; i < 5; i++) {
-//   numbers.push(Number(prompt(`Son ${i + 1} kiriting:`)));
-// }
-// console.log("Eng katta son:", Math.max(...numbers));
-// console.log("Eng kichik son:", Math.min(...numbers));
+// Masala 3. 
+let numbers = [];
+for (let i = 0; i < 5; i++) {
+  numbers.push(Number(`Son ${i + 1} kiriting:`));
+}
+console.log("Eng katta son:", Math.max(...numbers));
+console.log("Eng kichik son:", Math.min(...numbers));
 
 // // Masala 4. 
 // let realNum = prompt("Haqiqiy son kiriting:");
